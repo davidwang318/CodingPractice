@@ -1,3 +1,10 @@
+# Running Instructions:  
+Using linux system  
+```
+g++ -pthread -o output fileName.cpp
+./output
+```
+
 # thread  
 1. std::thread t1(factorial, 6);  
 2. std::this_thread::sleep_for(chrono::milliseconds(3));  
